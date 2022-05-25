@@ -1,0 +1,146 @@
+html, body {
+  
+    background-image: url("Colour2.jpg");
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Roboto, Arial, sans-serif;
+    width: 100%;
+    font-size: 14px;
+   
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0px;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  
+  
+  
+  /* Style the top navigation bar 
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+  
+  /* Style the topnav links 
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover 
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }*/
+  form {
+    border: 5px ;
+    margin:auto;
+    position: relative;
+    top: 150px;
+    justify-content: center;
+    max-width: 40%; 
+    min-height: 50%; 
+    
+    }
+    input[type=text], input[type=password] {
+    width: 100%;
+    padding: 16px 8px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    
+    }
+    button {
+    background-color: #8ebf42;
+    color: white;
+    padding: 14px 0;
+    margin: 10px 0;
+    border: none;
+    cursor: grabbing;
+    width: 100%;
+    
+    }
+    h1 {
+    text-align:center;
+    font-size:18;
+    
+    }
+    button:hover {
+    opacity: 0.8;
+    }
+    .formcontainer {
+    text-align: left;
+    margin: 24px 50px 12px;
+        
+    }
+    .container {
+    padding: 16px 0px;
+    text-align:left;
+    }
+    span.psw {
+    float: right;
+    padding-top: 0;
+    padding-right: 15px;
+    }
+    /* Change styles for span on extra small screens */
+    @media screen and (max-width: 300px) {
+    span.psw {
+    display: block;
+    float: none;
+    }  }
+    .menu{
+        width: 100%;
+        height: 100px;
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+    .leftmenu{
+        width: 20%;
+        line-height: 100Px;
+        float: left;
+      }
+  .leftmenu h4{
+     padding-left: 70px;
+    font-weight: bold;
+        color: white;
+        font-size: 22px;
+        font-family: 'montserrat', sans-serif;
+      }
+      .rightmenu{
+        width: 60%;
+        line-height: 100Px;
+        float: right;
+      }
+      .rightmenu {
+        margin-left: 200px;
+      }
+.rightmenu a{
+    display: inline-block;
+        font-family: 'montserrat', sans-serif ;
+        font-size: 15px;
+        color: white;
+        font-weight: bold;
+        line-height: 100px;
+        margin-left: 80px;
+        text-transform: uppercase;
+        cursor: pointer;
+        justify-content: left;
+        text-decoration: none;    
+        
+      }
+.rightmenu a:hover{
+        color: #00ccff;
+      }
