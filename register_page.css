@@ -15,34 +15,6 @@ html, body {
   body {
     margin: 0px;
   }
-  
-  
-  
-  
-  /* Style the top navigation bar */
-  .topnav {
-    overflow: hidden;
-    background-color: #333;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    font-size: 15px;
-  }
-  
-  /* Style the topnav links */
-  .topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change color on hover */
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
   body, div, h1, form, input, p { 
     outline: none;
     font-family: Roboto, Arial, sans-serif;
@@ -63,8 +35,6 @@ html, body {
     opacity: 0.3;
     }
    .main-block {
-    position: relative;
-    top: 101px;
     max-width: 350px;
     border-style: solid; 
     padding: 10px 0;
@@ -166,27 +136,15 @@ html, body {
         height: 100px;
         background-color: rgba(0, 0, 0, 0.1);
       }
-    .leftmenu{
-        width: 20%;
-        line-height: 100Px;
-        float: left;
-      }
-  .leftmenu h4{
-     padding-left: 70px;
-    font-weight: bold;
-        color: white;
-        font-size: 22px;
-        font-family: 'montserrat', sans-serif;
-      }
-      .rightmenu{
-        width: 60%;
+     
+      
+/* .menu{
+        width: 100%;
         line-height: 100Px;
         float: right;
-      }
-      .rightmenu {
-        margin-left: 200px;
-      }
-.rightmenu a{
+}*/
+
+.menu a{
     display: inline-block;
         font-family: 'montserrat', sans-serif ;
         font-size: 15px;
@@ -200,6 +158,26 @@ html, body {
         text-decoration: none;    
         
       }
-.rightmenu a:hover{
+.menu a:hover{
         color: #00ccff;
       }
+      @media only screen and (max-width: 720px){
+        .menu a {
+          
+          
+          
+          display: inline-block;
+          line-height: 35px;
+          font-size: 12px;
+          letter-spacing: 1px;
+          color: black;
+          overflow: hidden;
+          padding: 0;
+          margin: 0;
+        }
+      }
+      @media only screen and (max-width: 720px){
+        .menu  {
+        margin-left: 0px;
+        height: 80px;
+        }}
